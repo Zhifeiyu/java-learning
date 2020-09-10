@@ -1,0 +1,48 @@
+# <type>(<scope>): <subject>
+# <BLANK LINE>
+# <body>
+# <BLANK LINE>
+# <footer>
+
+# --- 提交 结束 ---
+
+# type: 用于指定commit的类型, 必填项
+#
+# 类型值包含
+#  常用类型
+#    feat:      增加新功能
+#    fix:       修复bug
+#
+#  特殊类型
+#    docs:      只改动了文档相关的内容
+#    style:     不影响代码含义的改动，例如去掉空格、改变缩进、增删分号
+#    refactor:  重构代码
+#    revert:    执行git revert打印的message
+#    build:     构造工具的或者外部依赖的改动, 例如maven
+#    perf:      提高性能的改动
+#    test:      添加测试或者修改现有测试
+#    chore:     不修改src或者test的其余修改, 例如构建过程或辅助工具的变动
+#
+# 当一次改动包括主要type与特殊type时，统一采用主要type
+
+
+# scope: 用于描述改动的范围, 必填项, 格式为项目名/模块名, 例如: frex-run/etl
+#        如果一次commit修改多个模块，建议拆分成多次commit，以便更好追踪和维护
+
+
+# subject: 子主题，写一个精简的描述
+
+
+# body: 填写详细描述, 主要描述改动之前的情况及修改动机
+#       对于小的修改不作要求,但是重大需求及更新等必须添加body来作说明
+
+
+# break changes： 指明是否产生了破坏性修改
+#                 涉及break changes的改动必须指明该项, 类似版本升级、接口参数减少、接口删除等
+
+
+# affect issues: 指明是否影响了某个问题, 填写相应的issue id、任务系统的任务id、禅道的bug id
+# 例如:
+#   re #任务ID
+#   fix #禅道ID
+

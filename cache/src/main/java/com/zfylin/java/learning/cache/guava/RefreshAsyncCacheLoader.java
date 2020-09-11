@@ -1,4 +1,4 @@
-package com.zfylin.study.java.cache.guava;
+package com.zfylin.java.learning.cache.guava;
 
 import com.google.common.cache.CacheLoader;
 import com.google.common.util.concurrent.ListenableFuture;

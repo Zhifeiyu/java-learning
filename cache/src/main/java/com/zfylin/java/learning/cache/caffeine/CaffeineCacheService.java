@@ -1,4 +1,4 @@
-package com.zfylin.study.java.cache.caffeine;
+package com.zfylin.java.learning.cache.caffeine;
 
 import cn.hutool.http.HttpUtil;
 import com.github.benmanes.caffeine.cache.Caffeine;

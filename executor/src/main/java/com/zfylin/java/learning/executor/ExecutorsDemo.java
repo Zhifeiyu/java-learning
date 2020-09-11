@@ -1,4 +1,4 @@
-package com.zfylin.study.java.executor;
+package com.zfylin.java.learning.executor;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -1,7 +1,7 @@
-package com.zfylin.study.java.cache;
+package com.zfylin.java.learning.cache;
 
 import cn.hutool.core.thread.ThreadUtil;
-import com.zfylin.study.java.cache.guava.CacheService;
+import com.zfylin.java.learning.cache.guava.CacheService;
 
 import java.util.concurrent.ExecutionException;
 

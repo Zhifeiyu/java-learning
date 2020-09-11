@@ -1,4 +1,4 @@
-package com.zfylin.study.java.cache.caffeine;
+package com.zfylin.java.learning.cache.caffeine;
 
 import com.github.benmanes.caffeine.cache.CacheLoader;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;

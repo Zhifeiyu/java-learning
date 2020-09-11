@@ -12,6 +12,7 @@
     <modules>
         <module>cache</module>
         <module>executor</module>
+        <module>spi</module>
     </modules>
 
     <properties>

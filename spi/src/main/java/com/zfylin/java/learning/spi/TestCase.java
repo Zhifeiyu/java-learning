@@ -13,7 +13,7 @@ public class TestCase {
         Iterator<ISearch> iterator = s.iterator();
         while (iterator.hasNext()) {
             ISearch search =  iterator.next();
-            search.searchDoc("hello world");
+            search.search("hello world");
         }
     }
 }

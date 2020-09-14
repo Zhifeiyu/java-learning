@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class FileSearch implements ISearch {
     @Override
-    public List<String> searchDoc(String keyword) {
+    public List<String> search(String keyword) {
         System.out.println("文件搜索 " + keyword);
         return null;
     }

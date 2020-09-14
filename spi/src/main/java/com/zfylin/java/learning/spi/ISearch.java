@@ -7,5 +7,5 @@ import java.util.List;
  * @version 2020/09/11
  */
 public interface ISearch {
-    List<String> searchDoc(String keyword);
+    List<String> search(String keyword);
 }
